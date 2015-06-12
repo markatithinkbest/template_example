@@ -118,8 +118,20 @@ public class NavigationDrawerFragment extends Fragment implements NavigationDraw
 
     public List<NavigationItem> getMenu() {
         List<NavigationItem> items = new ArrayList<NavigationItem>();
+//        簡介
+//        第一格，簡介，例如，客戶簡介說明，客戶網站。	http://www.ephotocloud.com/
+//        第二格，消息，例如，小遊戲，產品，活動，消息。
+//        第三格，聯絡我們，例如，地圖。
+//        第四格，會員服務，例如，購物車。		http://www.ephotocloud.com/06/
+//        第五格，加入會員，例如，加入會員。		http://www.ephotocloud.com/?page_id=16
+
+
+
         items.add(new NavigationItem(getString(R.string.search), getResources().getDrawable(R.drawable.ic_action_search)));
         items.add(new NavigationItem(getString(R.string.stats), getResources().getDrawable(R.drawable.ic_action_trending_up)));
+        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_add_shopping_cart_black_24dp)));
+        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_shopping_cart_black_24dp)));
+        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_shopping_cart_black_36dp)));
         items.add(new NavigationItem(getString(R.string.myaccount), getResources().getDrawable(R.drawable.ic_action_account_box)));
         items.add(new NavigationItem(getString(R.string.settings), getResources().getDrawable(R.drawable.ic_action_settings)));
         return items;
