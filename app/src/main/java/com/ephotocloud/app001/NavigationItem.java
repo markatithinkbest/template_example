@@ -1,4 +1,4 @@
-package com.myapps.materialapplication;
+package com.ephotocloud.app001;
 
 
 import android.graphics.drawable.Drawable;

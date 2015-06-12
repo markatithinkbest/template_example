@@ -1,4 +1,4 @@
-package com.myapps.materialapplication;
+package com.ephotocloud.app001;
 
 import android.app.Fragment;
 import android.graphics.BitmapFactory;
@@ -8,6 +8,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.myapps.materialapplication.R;
 
 
 public class MainActivity extends ActionBarActivity

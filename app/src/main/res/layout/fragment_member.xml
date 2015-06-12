@@ -2,11 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="@color/myPrimaryColor"
+    android:background="@color/myPageBackground"
     android:orientation="vertical">
 
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/myTextPrimaryColor"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/item_member" />
 
 
     <ImageView
@@ -16,14 +23,7 @@ android:background="@color/myPrimaryColor"
 
         android:layout_gravity="center"
         android:src="@drawable/img_member" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:textAppearance="@android:style/TextAppearance.Large"
-       android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/item_member" />
+
 
     <include layout="@layout/visit_web" />
 </LinearLayout>

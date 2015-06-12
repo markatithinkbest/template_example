@@ -1,4 +1,4 @@
-package com.myapps.materialapplication;
+package com.ephotocloud.app001;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -13,17 +13,19 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.myapps.materialapplication.R;
+
 /**
  * Created by poliveira on 11/03/2015.
  */
-public class ContactFragment extends Fragment {
+public class MemberFragment extends Fragment {
 //    public static final String TAG = "intro";
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment_contact, container, false);
+        return inflater.inflate(R.layout.fragment_member, container, false);
     }
 
     @Override
@@ -39,12 +41,14 @@ public class ContactFragment extends Fragment {
         iv.setLayoutParams(parms);
         
         Button btn1 = (Button) view.findViewById(R.id.btn1);
+
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "http://www.ephotocloud.com/";
+                String url = "http://www.ephotocloud.com/06";
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(i);
+
             }
         });
 

@@ -1,4 +1,4 @@
-package com.myapps.materialapplication;
+package com.ephotocloud.app001;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.myapps.materialapplication.R;
 
 import java.util.ArrayList;
 import java.util.List;

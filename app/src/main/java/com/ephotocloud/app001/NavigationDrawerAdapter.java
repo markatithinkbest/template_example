@@ -1,4 +1,4 @@
-package com.myapps.materialapplication;
+package com.ephotocloud.app001;
 
 
 import android.graphics.Color;
@@ -8,6 +8,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.myapps.materialapplication.R;
 
 import java.util.List;
 

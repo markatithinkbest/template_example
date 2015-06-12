@@ -6,6 +6,7 @@
     <color name="myWindowBackground">#FFF</color>
     <color name="myTextPrimaryColor">#212121</color>
     <color name="myNavigationColor">#000</color>
+    <color name="myPageBackground">#90CAF9</color>
     <!--
         Check Android Theme colors for color reference:
         https://developer.android.com/training/material/images/ThemeColors.png
