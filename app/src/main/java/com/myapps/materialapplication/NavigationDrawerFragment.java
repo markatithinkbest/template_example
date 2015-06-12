@@ -127,13 +127,14 @@ public class NavigationDrawerFragment extends Fragment implements NavigationDraw
 
 
 
-        items.add(new NavigationItem(getString(R.string.search), getResources().getDrawable(R.drawable.ic_action_search)));
-        items.add(new NavigationItem(getString(R.string.stats), getResources().getDrawable(R.drawable.ic_action_trending_up)));
-        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_add_shopping_cart_black_24dp)));
-        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_shopping_cart_black_24dp)));
-        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_shopping_cart_black_36dp)));
-        items.add(new NavigationItem(getString(R.string.myaccount), getResources().getDrawable(R.drawable.ic_action_account_box)));
-        items.add(new NavigationItem(getString(R.string.settings), getResources().getDrawable(R.drawable.ic_action_settings)));
+        items.add(new NavigationItem(getString(R.string.item_home), getResources().getDrawable(R.drawable.ic_home_black_24dp)));
+        items.add(new NavigationItem(getString(R.string.item_info), getResources().getDrawable(R.drawable.ic_info_black_24dp)));
+        items.add(new NavigationItem(getString(R.string.item_contact), getResources().getDrawable(R.drawable.ic_phone_black_24dp)));
+//        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_add_shopping_cart_black_24dp)));
+        items.add(new NavigationItem(getString(R.string.item_member), getResources().getDrawable(R.drawable.ic_shopping_cart_black_24dp)));
+//        items.add(new NavigationItem(getString(R.string.shopping), getResources().getDrawable(R.drawable.ic_shopping_cart_black_36dp)));
+//        items.add(new NavigationItem(getString(R.string.myaccount), getResources().getDrawable(R.drawable.ic_action_account_box)));
+        items.add(new NavigationItem(getString(R.string.item_settings), getResources().getDrawable(R.drawable.ic_settings_black_24dp)));
         return items;
     }
 

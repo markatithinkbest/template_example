@@ -1,13 +1,19 @@
 <resources>
-    <string name="app_name">Material Application</string>
+    <string name="app_name">photocloud001</string>
     <string name="drawer_open">Menu opened</string>
     <string name="drawer_close">Menu closed</string>
     <string name="action_settings">Settings</string>
-    <string name="settings">Settings</string>
+    <string name="settings">系統設定</string>
     <string name="myaccount">My Account</string>
     <string name="stats">Stats</string>
     <string name="search">Search</string>
     <string name="action_search">Search</string>
     <string name="action_filter">Filter</string>
     <string name="shopping">會員服務，購物車</string>
+    <string name="item_home">公司簡介</string>
+    <string name="item_info">活動消息</string>
+    <string name="item_contact">連絡我們</string>
+    <string name="item_member">會員服務</string>
+    <string name="item_settings">系統設定</string>
+    <string name="visit_web">訪問官網更多即時資訊</string>
 </resources>

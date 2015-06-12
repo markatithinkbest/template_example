@@ -39,18 +39,47 @@ public class MainActivity extends ActionBarActivity
     public void onNavigationDrawerItemSelected(int position) {
         Fragment fragment;
         switch (position) {
-            case 0: //search//todo
+            case 0: //公司簡介
+                fragment =new HomeFragment();
+
+                getFragmentManager().beginTransaction().
+                        replace(R.id.container, fragment).
+                        commit();
+
                 break;
-            case 1: //stats
-                fragment = getFragmentManager().findFragmentByTag(StatsFragment.TAG);
-                if (fragment == null) {
-                    fragment = new StatsFragment();
-                }
-                getFragmentManager().beginTransaction().replace(R.id.container, fragment, StatsFragment.TAG).commit();
+            case 1: //活動消息
+//                fragment = getFragmentManager().findFragmentByTag(StatsFragment.TAG);
+//                if (fragment == null) {
+//                    fragment = new StatsFragment();
+//                }
+//                getFragmentManager().beginTransaction().replace(R.id.container, fragment, StatsFragment.TAG).commit();
+                fragment =new InfoFragment();
+
+                getFragmentManager().beginTransaction().
+                        replace(R.id.container, fragment).
+                        commit();
+
                 break;
-            case 2: //my account //todo
+            case 2: //連絡我們
+                fragment =new ContactFragment();
+
+                getFragmentManager().beginTransaction().
+                        replace(R.id.container, fragment).
+                        commit();
                 break;
-            case 3: //settings //todo
+            case 3: //會員服務
+                fragment =new MemberFragment();
+
+                getFragmentManager().beginTransaction().
+                        replace(R.id.container, fragment).
+                        commit();
+                break;
+            case 4: //系統設定
+                fragment =new SettingsFragment();
+
+                getFragmentManager().beginTransaction().
+                        replace(R.id.container, fragment).
+                        commit();
                 break;
         }
     }
